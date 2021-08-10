@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>ZZYL</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body class="pt80">
+
+    <div class="header-outer fixed-top">
+        <div class="header d-flex align-items-center p-3">
+            <a class="my-0 mr-md-auto logo-link" href="/index.shtml"><span class="logo mb-2"></span></a>
+            <nav class="my-2 my-md-0 mr-md-3 d-none d-md-block">
+                <a class="p-3" href="#">产品</a>
+                <a class="p-3" href="#">试用</a>
+                <a class="p-3" href="vip.shtml">会员</a>
+                <a class="p-3" href="news_list.shtml">商学院</a>
+                <a class="p-3" href="#">帮助</a>
+                <a class="p-3" href="team.shtml">关于我们</a>
+            </nav>
+            <a class="btn btn-outline-primary d-none d-md-block" href="#">登录/注册</a>
+            <!-- <a class="p-3">登录后文字</a> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="icon-menu d-md-none" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            <div class="mobile-nav show d-none">
+                <nav>
+                    <a class="p-3" href="#">产品</a>
+                    <a class="p-3" href="#">试用</a>
+                    <a class="p-3" href="vip.shtml">会员</a>
+                    <a class="p-3" href="#">商学院</a>
+                    <a class="p-3" href="#">帮助</a>
+                    <a class="p-3" href="#">关于我们</a>
+                    <a class="p-3" href="#">登录/注册</a>
+                    <a class="p-3">登录后文字</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="banner px-3 py-3">
+            <div class="banner-item banner-txt">
+                <h1>用人工智能技术赋能智能设备行业打造最具价值的供应链生态圈</h1>
+                <p class="lead">智造云链公开竞价平台定制化推送询盘信息，让老板不错过商机；人工智能辅助报价，快速抢单；老板随时随地掌握生产、交付进度。</p>
+                <a class="btn btn-lg btn-primary" href="#">马上体验</a>
+            </div>
+            <div class="banner-item banner-pic d-none d-md-block">
+                <div class="banner-img"></div>
+            </div>
+        </div>
+        <div class="feature px-3 py-3">
+            <div class="feature-img"><span class="feature-icon feature-icon1"></span></div>
+            <div class="feature-txt">
+                <div class="feature-title">一键分图、询价，可视化比价发单竞价模式让采购价格公开、透明、合理</div>
+                <div class="feature-content lead">智造云链公开竞价平台定制化推送询盘信息，让老板不错过商机；人工智能辅助报价，快速抢单；老板随时随地掌握生产、交付进度。</div>
+            </div>
+        </div>
+        <div class="feature px-3 py-3">
+            <div class="feature-img"><span class="feature-icon feature-icon2"></span></div>
+            <div class="feature-txt">
+                <div class="feature-title">在线竞价抢单、极速报价、一键获取材料清单</div>
+                <div class="feature-content lead">销售在拾维云链平台可以一键抢到自己心仪的客户订单；使用报计算器在线定价、报价；获得订单一键从平台获取材料清单，从而第一时间下料安排生产，极速交付。</div>
+            </div>
+        </div>
+        <div class="feature px-3 py-3">
+            <div class="feature-img"><span class="feature-icon feature-icon3"></span></div>
+            <div class="feature-txt">
+                <div class="feature-title">云端工厂，降本增效、实时掌控进度</div>
+                <div class="feature-content lead">一键自动生成材料清单；工人扫码报工和交付，让老板随时掌握生产、交付进度；在线跟单、实时统计，第一时间掌握发货、退货情况；丰富的客户定制发货单、物料卡模板，无成本满足客户定制化需求。</div>
+            </div>
+        </div>
+        <div class="feature px-3 py-3">
+            <div class="feature-img"><span class="feature-icon feature-icon4"></span></div>
+            <div class="feature-txt">
+                <div class="feature-title">实时数据，建立企业防火墙</div>
+                <div class="feature-content lead">及时、全面而精准的诊断报告，让老板时刻把脉公司的运营状况，自由的作一个舵手杨帆远航。</div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="pt-4 mt-md-5 py-md-5 footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-4" src="img/logo.png" alt="" width="133" height="30">
+                </div>
+                <div class="col-6 col-md">
+                    <h5>会员</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">免费试用</a></li>
+                        <li><a class="text-muted" href="#">会员中心</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>帮助</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">帮助中心</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>关于我们</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">关于我们</a></li>
+                        <li><a class="text-muted" href="#">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>合作伙伴</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">企业培训公司</a></li>
+                        <li><a class="text-muted" href="#">财税公司</a></li>
+                        <li><a class="text-muted" href="#">律师事务所</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>公众号</h5>
+                    <img class="mb-2" src="img/qrcode.png" alt="" width="109" height="109">
+                </div>
+                <div class="col-6 col-md">
+                    <h5>技术支持</h5>
+                    <img class="mb-2" src="img/qrcode.png" alt="" width="109" height="109">
+                </div>
+            </div>
+        </div>
+        <div class="address px-4 mt-3 text-center">公司地址:深圳市宝安区兴东街道稻兴环球科创中心A座1903<br>技术支持:13728713571</div>
+        <div class="copyright px-4 mt-3 text-center">@2019-2021 深圳市智造帮科技有限公司 粤ICP备17086927号-3</div>
+    </footer>
+    <script src="js/jquery.slim.min.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
