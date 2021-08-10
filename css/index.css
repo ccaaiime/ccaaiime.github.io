@@ -409,6 +409,17 @@ html {
   width: 100%;
 }
 
+.vip-item .more-info {
+  font-size: 1rem /* 16/16 */;
+  padding: 1rem 0 0;
+  line-height: 1;
+}
+.vip-item .more-info .icon-plus{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
 .super .vip-item-hd {
   background-color: #3d3e47;
   border-color: #3d3e47;
@@ -597,5 +608,10 @@ html {
 
   .vip-item-bd {
     display: none;
+  }
+
+  .vip-item-bd.show{
+    background-color: #fff;
+    display: block;
   }
 }

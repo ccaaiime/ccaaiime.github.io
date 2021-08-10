@@ -10,3 +10,8 @@ $(window).on('scroll',function(){
 $('.icon-menu').on('click',function(){
     $('.mobile-nav').toggleClass('d-none')
 })
+$('.more-info').on('click',function(){
+    var curbd = $(this).parent().next('.vip-item-bd')
+    console.log(curbd)
+    curbd.toggleClass('show')
+})
