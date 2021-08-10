@@ -1,6 +1,6 @@
-$(window).on('scroll',function(){
-    // console.log($('html').scrollTop())
-    var top = $('html').scrollTop()
+$(document).on('scroll',function(){
+    console.log($(document).scrollTop())
+    var top = $(document).scrollTop()
     if(top>50){
         $('.header-outer').addClass('scroll')
     } else{
