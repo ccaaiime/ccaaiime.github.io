@@ -106,10 +106,10 @@
         <div class="pop-hd"><span class="close">X</span></div>
         <div class="pop-bd">
             <div class="pop-con">24小时*7 在线客服 <a href="#" class="fr" id="kefuLink">进入咨询</a></div>
-            <div class="pop-con">客服QQ <span class="qq" id="qq1"></span><span class="copy fr" id="copy1">点击复制</span></div>
-            <div class="pop-con">客服QQ <span class="qq" id="qq2">222</span><span class="copy fr" data-clipboard-target="#qq2">点击复制</span></div>
+            <div class="pop-con">客服QQ <span class="qq" id="qq1"></span><span class="copy fr" aria-label="" id="copy1">点击复制</span></div>
+            <div class="pop-con">客服QQ <span class="qq" id="qq2"></span><span class="copy fr" aria-label="" id="copy2">点击复制</span></div>
         </div>
-    </div>
+    </div>    
     <script src="js/clipboard.min.js"></script>
     <script>
         var kefuLink_pc = '',
@@ -125,6 +125,8 @@
             document.getElementById('kefuLink').setAttribute('href',kefuLink_pc)
             document.getElementById('qq1').innerHTML = qq[0]
             document.getElementById('qq2').innerHTML = qq[1]
+            document.getElementById('copy1').setAttribute('aria-label',qq[0])
+            document.getElementById('copy2').setAttribute('aria-label',qq[1])
             document.querySelectorAll('.btn-link1')[0].setAttribute('href', regUrl_pc[0])
             document.querySelectorAll('.btn-link1')[1].setAttribute('href', regUrl_pc[0])
             document.querySelectorAll('.btn-link2')[0].setAttribute('href', regUrl_pc[1])
@@ -133,6 +135,24 @@
                 document.write("<script src='" + countJs + "'><\/script>")    
             }
         }
+    </script>
+    <script>
+        var clipboard1 = new ClipboardJS('#copy1', {
+            text: function(trigger) {
+                return trigger.getAttribute('aria-label');
+            }
+        });
+        var clipboard2 = new ClipboardJS('#copy2', {
+            text: function(trigger) {
+                return trigger.getAttribute('aria-label');
+            }
+        });
+        clipboard1.on('success', function(e) {
+            alert('复制成功')
+        });
+        clipboard2.on('success', function(e) {
+            alert('复制成功')
+        });
     </script>
     <script>
         $(document).ready(function () {
