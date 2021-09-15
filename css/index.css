@@ -245,6 +245,9 @@ a{
   cursor: pointer;
   color: #fff;
 }
+.card:last-child{
+  margin-right: 0;
+}
 .card.active{
   width: 504px;
 }
@@ -348,6 +351,7 @@ a{
   color: #000000;
   font-size: 33px;
   margin-bottom: 58px;
+  font-weight: bold;
 }
 .pop-con .qq{
   display: inline-block;
@@ -356,4 +360,26 @@ a{
 .pop-con .copy{
   color: #0091FF;
   cursor: pointer;
+}
+
+@media screen and (max-width:1400px) {
+  .banner,.slogon{
+    margin-bottom: 30px;
+  }
+  .kefu{
+    top: 65%;
+  }
+  .cards-list{
+    margin-top: 30px;
+    width: 100%;
+  }
+  .card{
+    width: 20%;
+  }
+  .card.active{
+    width: 30%;
+  }
+  .partner img{
+    width: 100%;
+  }
 }

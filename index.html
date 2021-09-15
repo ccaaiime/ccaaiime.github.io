@@ -112,27 +112,23 @@
     </div>
     <script src="js/clipboard.min.js"></script>
     <script>
-        console.log(config)
         var kefuLink_pc = '',
-            downloadLink_pc = '',
-            kefuLink_h5 = '',
-            downloadLink_h5 = '',
             countJs = '',
-            qq = []
+            qq = [],
+            regUrl_pc = []
         if(config){
-            document.title = config.title
             kefuLink_pc = config.kefuLink_pc
-            downloadLink_pc = config.downloadLink_pc
-            kefuLink_h5 = config.kefuLink_h5
-            downloadLink_h5 = config.downloadLink_h5
             countJs = config.countJs
             qq = config.qq
+            regUrl_pc = config.regUrl_pc
+            document.title = config.title
             document.getElementById('kefuLink').setAttribute('href',kefuLink_pc)
-            // document.getElementById('copy1').setAttribute('data-clipboard-text',qq[0])
-            if(qq){
-                document.getElementById('qq1').innerHTML = qq[0]
-                document.getElementById('qq2').innerHTML = qq[1]
-            }
+            document.getElementById('qq1').innerHTML = qq[0]
+            document.getElementById('qq2').innerHTML = qq[1]
+            document.querySelectorAll('.btn-link1')[0].setAttribute('href', regUrl_pc[0])
+            document.querySelectorAll('.btn-link1')[1].setAttribute('href', regUrl_pc[0])
+            document.querySelectorAll('.btn-link2')[0].setAttribute('href', regUrl_pc[1])
+            document.querySelectorAll('.btn-link2')[1].setAttribute('href', regUrl_pc[1])
             if(countJs){
                 document.write("<script src='" + countJs + "'><\/script>")    
             }
