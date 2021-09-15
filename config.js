@@ -1,5 +1,5 @@
 var config = {
-    title: "Title",  //站点名
+    title: "Title1",  //站点名
     downloadLink_h5: "http://www.baidu.com", //H5端下载链接
     downloadLink_pc: "http://www.baidu.com", //PC端下载链接
     qq:["1234564","78946646"],  //QQ号码
