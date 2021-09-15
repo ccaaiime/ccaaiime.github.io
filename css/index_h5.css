@@ -151,7 +151,8 @@ body,h1,h2,h3,h4,h5,h6{
 }
 .cards-wrapper{
   width: 100%;
-  overflow: hidden;;
+  overflow-x: scroll;
+  overflow-y: hidden;
   height: 3.066667rem /* 230/75 */;
 }
 .cards-wrapper::-webkit-scrollbar{
@@ -161,8 +162,8 @@ body,h1,h2,h3,h4,h5,h6{
   white-space: nowrap;
   width:28rem /* 2100/75 */;
   height: 3.066667rem /* 230/75 */;
-  overflow-x: scroll;
   overflow-y: hidden;
+  overflow-x: scroll;
   scroll-behavior:smooth; 
   padding: 0 .4rem /* 30/75 */;
   -webkit-overflow-scrolling: touch;
