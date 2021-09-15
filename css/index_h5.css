@@ -164,9 +164,9 @@ body,h1,h2,h3,h4,h5,h6{
   height: 3.066667rem /* 230/75 */;
   overflow-y: hidden;
   overflow-x: scroll;
-  scroll-behavior:smooth; 
+  /* scroll-behavior:smooth;  */
   padding: 0 .4rem /* 30/75 */;
-  -webkit-overflow-scrolling: touch;
+  /* -webkit-overflow-scrolling: touch; */
 }
 
 .card{
@@ -176,7 +176,6 @@ body,h1,h2,h3,h4,h5,h6{
   height: 3.066667rem /* 230/75 */;
   margin-right: .2rem /* 15/75 */;
   overflow: hidden;
-  cursor: pointer;
   color: #fff;
   background: url(../img/card-bg-h5.png) center center;
   background-size: 100% 100%;
