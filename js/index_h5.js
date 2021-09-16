@@ -3,7 +3,11 @@
    
     function setRemUnit () {
       var docWidth = docEl.clientWidth;
-      var rem = docWidth / 10;
+      if(docWidth<750){
+        var rem = docWidth / 10;
+      } else{
+        var rem = 500 / 10;
+      }
       docEl.style.fontSize = rem + 'px';
     }
    
