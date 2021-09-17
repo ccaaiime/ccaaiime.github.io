@@ -38,6 +38,7 @@
                             <a href="#" class="btn-link btn-link2">亚博注册入口</a>
                         </div>
                         <div class="kefu"></div>
+                        <div class="arrow"></div>
                         <div class="partner">
                             <img src="img/partner-h5.png" class="partner-img" width="100%">
                         </div>
@@ -99,7 +100,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="swiper-pagination swiper-pagination-h"></div> -->
+                            <div class="swiper-pagination swiper-pagination-h"></div>
                         </div>
                         <div class="partner">
                             <img src="img/league-h5.png" width="100%">
@@ -186,11 +187,12 @@
             slidesOffsetBefore: 15,
             spaceBetween: 12,
             centeredSlides: false,
-            freeMode: true,
-            // pagination: {
-            //     el: '.swiper-pagination-h',
-            //     clickable: false,
-            // },
+            freeMode: false,
+            autoplay: true,
+            pagination: {
+                el: '.swiper-pagination-h',
+                clickable: false,
+            },
         });
         var swiperV = new Swiper('.swiper-container-v', {
             direction: 'vertical',
