@@ -10,6 +10,13 @@
     <link rel="stylesheet" type="text/css" href="css/index_h5.css" />
     <script type="text/javascript" src="js/index_h5.js"></script>
     <script src="config.js"></script>
+    <script>var webroot="/",murl="index.html";</script> 
+    <script>
+        var is_mobi = navigator.userAgent.toLowerCase().match(/(ipod|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|wince)/i) != null;
+        if (!is_mobi) {
+        window.location.href=webroot+murl;
+        }
+    </script>
 </head>
 
 <body>

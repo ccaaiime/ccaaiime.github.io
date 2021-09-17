@@ -8,6 +8,10 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.fullPage.min.js"></script>
     <script src="config.js"></script>
+    <script>var webroot="/",murl="index_h5.html";</script> 
+    <script>
+        if((navigator.userAgent.toLowerCase().match(/(iPhone|iPod|Android|ios)/i))){if(typeof(murl)=="undefined"){var murl="";}location.href=webroot+murl;}
+    </script>
 </head>
 <body>
     <div class="header">
